@@ -1,0 +1,158 @@
+/*
+===========================================================================
+    Project Name: "Your Catsitter in Majorna" 
+    
+    Course: Webbutveckling - Assigment 1 
+    
+    Description: General Styling
+
+    Theme: Animal Crossing
+
+    Colors used:
+        -Green: #2a7d3f (Light) & #2a7d3f (dark)
+        -Pink: #f8c8dc (light) & #ef84b1 (dark)
+        -Yellow: #ffeb3b; 
+        -Brown: #C8A07A (light) & #A78F6C (dark)
+
+    Fonts:  Body:
+            default fonts: system-ui, -apple-system 
+            fallback fonts: Segoe UI, Roboto, Helvetica Neue, and Arial
+            emoji fonts: Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+            Footer: Lora, serif
+    
+=============================================================================
+*/
+
+body {
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, 
+    "Noto Sans", "Liberation Sans", sans-serif, 
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 60px; 
+}
+
+/* Header Styles */
+header {
+    background-color: #a8e6cf;
+    padding: 20px 0; 
+    text-align: center; 
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: #2a7d3f;
+    margin-bottom: 5px; 
+}
+
+/* Navigation Styles */
+nav .nav {
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+}
+
+nav .nav-item {
+    margin: 0 15px;
+}
+
+nav .nav-link {
+    font-size: 1rem;
+    font-weight: normal;
+    color: #3e8e41; 
+    padding: 8px 12px;
+    border-radius: 12px; 
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 0.3s ease; 
+}
+
+/* Hover Effects for Navigation Links */
+nav .nav-link:hover {
+    background-color: #ffeb3b; 
+    color: #2a7d3f; 
+    transform: scale(1.1); 
+}
+
+.container {
+    margin-top: 20px;
+}
+  
+  .img-fluid {
+    border-radius: 15px;
+}
+
+/* Scrollable Content Area */
+.content-section {
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+    padding: 30px;
+    max-width: 900px;
+    margin: 0 auto;
+    min-height: calc(100vh - 60px);
+    overflow-y: auto; 
+    padding-bottom: 80px;
+}
+
+.content-section h2 {
+    font-size: 2.5rem;
+    color: #388e3c; 
+    margin-bottom: 20px;
+}
+
+.content-section p {
+    line-height: 1.6;
+    font-size: 1.1rem;
+    color: #444444; 
+}
+
+.content-section p strong {
+    color: #388e3c; 
+}
+
+/* Footer Styles */
+footer {
+    background-color: #a8e6cf; 
+    padding-top: 5px; 
+    padding-bottom: 5px; 
+    position: fixed; 
+    bottom: 0;
+    width: 100%;
+    z-index: 100;
+    box-shadow: 0px -1px 2px rgba(0, 0, 0, 0.1); 
+}
+
+footer p {
+    font-family: 'Lora', serif;
+    font-size: 1rem; 
+    margin: 0; 
+    text-align: center; 
+}
+
+/* Style the Scrollbar */
+::-webkit-scrollbar {
+    width: 12px; 
+    height: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: transparent;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #f8c8dc;
+    border-radius: 10px;
+    border: 3px solid #ffffff; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #ef84b1 ; 
+}
+
+::-webkit-scrollbar-corner {
+    background-color: #f1f1f1;
+}
+

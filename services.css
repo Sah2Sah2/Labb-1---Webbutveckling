@@ -1,0 +1,187 @@
+/*
+=========================
+styling for SERVICES
+=========================
+*/
+
+/* Base style for service cards */
+.service-card {
+    font-family: 'Acme', sans-serif; 
+    background-color: transparent;
+    border-radius: 15px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    padding: 20px;
+    margin: 10px; 
+}
+
+.service-card .service-price {
+    color: #ef84b1 !important;
+}
+
+/* Specific background colors for cards added to cart */
+.service-card.added-to-cart:nth-child(1) {
+    background-color: #f8c8dc; 
+}
+
+.service-card.added-to-cart:nth-child(2) {
+    background-color: #f8c8dc; 
+}
+
+.service-card.added-to-cart:nth-child(3) {
+    background-color: #f8c8dc; 
+}
+
+/* Hover effect for service cards */
+.service-card:hover {
+    transform: scale(1.05); 
+    box-shadow: 0px 6px 16px rgba(0, 0, 0, 0.2); 
+}
+
+/* Quantity Input */
+.quantity-input {
+    width: 60px;
+    margin: 10px auto;
+    padding: 5px;
+    border: 2px solid #388e3c; 
+    border-radius: 8px;
+    font-size: 1rem;
+    text-align: center;
+}
+
+/* Add to Cart Button */
+.add-to-cart-btn {
+    background-color: #a8e6cf; 
+    color: #2a7d3f; 
+    font-weight: bold;
+    border: none;
+    border-radius: 12px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s ease;
+    width: 100%; 
+}
+
+.add-to-cart-btn:hover {
+    background-color: #ffeb3b; 
+    color: #2a7d3f; 
+    transform: scale(1.1);
+}
+
+/* Checkout Button */
+#checkout-btn {
+    background-color: #C8A07A; 
+    color: white;
+    border: none;
+    padding: 10px 20px; 
+    border-radius: 8px; 
+    transition: background-color 0.3s, transform 0.2s ease;
+    max-width: 200px; 
+    width: auto; 
+    display: inline-block; 
+}
+
+#checkout-btn:hover {
+    background-color: #A78F6C; 
+    transform: scale(1.05); 
+}
+
+/* Cart Section */
+.cart-section {
+    background-color: #f9f9f9;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    margin-top: 40px;
+    text-align: center;
+}
+
+/* Cart Item Styles */
+.list-group-item {
+    font-size: 1.2rem;
+    padding: 10px;
+    background-color: #ffffff;
+    border: 1px solid #a8e6cf; 
+    border-radius: 8px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Total Price */
+#total-price {
+    font-size: 1.5rem;
+    color: #2a7d3f;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+/* Service Card Image */
+.service-image {
+    width: 100%; 
+    max-height: 250px; 
+    object-fit: cover;
+    border-radius: 8px; 
+    margin-top: 10px; 
+}
+
+/* Donation Container */
+.donation-container {
+    background-color: #f8c8dc;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+
+.donation-container .section-title {
+    color: white;
+}
+
+/* Donation Modal */
+#donationModal .modal-body {
+    text-align: center;
+    font-size: 1.1rem; 
+}
+
+/* Close Button (X) */
+button.btn-close-donate {
+    background: none;
+    color: #C8A07A; 
+    border: none;
+    font-size: 1rem; 
+    padding: 0;
+    cursor: pointer;
+    transition: color 0.3s ease, transform 0.2s ease;
+}
+
+button.btn-close-donate:hover {
+    color: #A78F6C; 
+    transform: scale(1.1); 
+}
+
+/* Donation Button */
+button.btn-donate,
+.btn-donate-modal {
+    background-color: #C8A07A!important; 
+    color: white!important;
+    border: none;
+    border-radius: 8px; 
+    padding: 10px 20px; 
+    transition: background-color 0.3s, transform 0.2s ease;
+}
+
+button.btn-donate:hover,
+.btn-donate-modal:hover {
+    background-color: #A78F6C!important;
+    transform: scale(1.05); 
+    color: white!important;
+}
+
+button.btn-donate:focus,
+.btn-donate-modal:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
