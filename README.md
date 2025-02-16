@@ -6,7 +6,7 @@ It represents a local catsitting service inspired by the Animal Crossing (Ninten
 This project was created as part of my coursework to showcase my skills in web development and frontend design.
 
 ## Assignment Instructions 
-Task Description
+### Task Description
 
 *Disclaimer: The description of the assignment has been taken from the PDF provided by the school.*
 
