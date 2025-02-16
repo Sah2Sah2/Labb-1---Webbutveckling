@@ -7,6 +7,7 @@ This project was created as part of my coursework to showcase my skills in web d
 
 ## Assignment Instructions 
 Task Description
+
 *Disclaimer: The description of the assignment has been taken from the PDF provided by the school.*
 
 ### Project Structure
