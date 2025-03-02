@@ -22,6 +22,8 @@ Create a website for a local business featuring:
   - HTML, CSS, JavaScript;
   - Bootstrap for responsive design;
   - Google Maps API for embedding maps.
+
+![Image](https://github.com/user-attachments/assets/55f8d0d3-5302-44f6-b2a8-82ccadb24767)
  
 ## Theme Inspiration
 This website takes inspiration from Animal Crossing, creating a cozy, welcoming, and fun experience while showcasing a fictional local cat care service.
